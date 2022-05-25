@@ -1,9 +1,10 @@
-html{
+html {
     font-size: 14px;
 }
-@media (min-width:768px) {
+
+@media(min-width: 768px){
     html{
-        font-size: 14px;
+        font-size: 16px;
     }
 }
 
@@ -11,7 +12,8 @@ html{
     margin-top: 7rem;
     max-width: 700px;
 }
-@media (min-width:768px){
+
+@media (max-width: 768px){
     .blog-header{
         margin-top: 8rem;
     }
@@ -25,7 +27,7 @@ html{
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
-    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .card-deck .card{
